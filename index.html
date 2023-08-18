@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz - Página Inicial</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box; 
+        }
+        main{
+            width: 100%;
+            height: 100vh;
+            /*background-color: darkgrey;*/
+            background-image: url(img/hellokittybg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }
+        .bloco1,.bloco2{
+            width: 30%;
+            height: 350px;
+            background-color: crimson;
+            border: 1px solid aqua;
+            border-radius: 20px;
+            padding: 15px;
+            
+        }
+        .titulo{
+            text-align: center;
+            margin: 20px 0px;
+        }
+
+        .bloco1 p{
+            text-align: justify;
+            line-height: 15px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="bloco1">
+            <h2 class="titulo">Projeto - Quizz Web</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium quisquam, ratione dicta illum beatae, expedita ut dolor totam nihil eligendi tenetur atque porro ea veritatis laboriosam delectus dolorem modi.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, voluptatum! Quos quidem nesciunt necessitatibus perferendis numquam omnis dignissimos ipsum qui enim, asperiores vitae dolores deleniti corporis dolorem labore. Eius, amet?</p>
+        </div>
+        <div class="bloco2">
+            <h2 class="titulo">Login</h2>
+            <form action="">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <input type="submit" value="Acessar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
